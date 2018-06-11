@@ -7,3 +7,16 @@ Akka HTTP was initially known as Spray. It currently implements HTTP2 asynchrono
 ````
 git checkout -b akka_http_server master
 ````
+- Add the Akka Dependency to the build.sbt file:
+````
+libraryDependencies += "com.typesafe.akka" %% "akka-http" % "10.0.5"
+````
+- Create a minimal server: <b>com.github.janikibichi.learnakka.http.MinimalHTTPServer.scala</b>
+- Run the App
+````
+sbt "runMain com.github.janikibichi.learnakka.http.MinimalHTTPServerApp"
+````
+- Run a curl command to receive a GET response from the running server:
+````
+curl http://127.0.0.1:8088/v1/id/ALICE
+
