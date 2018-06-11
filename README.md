@@ -20,4 +20,10 @@ sbt "runMain com.github.janikibichi.learnakka.http.MinimalHTTPServerApp"
 ````
 curl http://127.0.0.1:8088/v1/id/ALICE
 ````
+<br><br>
+- Branch out to explore consuming AKKA Http from client Side
+````
+git checkout -b client_side_akka_http akka_http_server
+````
+- Create file: <b>com.github.janikibichi.learnakka.http.ConnectionLevelClientAPIApp.scala</b>
 
