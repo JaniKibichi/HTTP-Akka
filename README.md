@@ -19,4 +19,5 @@ sbt "runMain com.github.janikibichi.learnakka.http.MinimalHTTPServerApp"
 - Run a curl command to receive a GET response from the running server:
 ````
 curl http://127.0.0.1:8088/v1/id/ALICE
+````
 
