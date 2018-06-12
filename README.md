@@ -26,4 +26,6 @@ curl http://127.0.0.1:8088/v1/id/ALICE
 git checkout -b client_side_akka_http akka_http_server
 ````
 - Create file: <b>com.github.janikibichi.learnakka.http.ConnectionLevelClientAPIApp.scala</b>
+- Create file: <b>com.github.janikibichi.learnakka.http.HostLevelClientAPIApp.scala</b>
+- Create file: <b>com.github.janikibichi.learnakka.http.RequestLevelClientAPIApp.scala</b>
 
