@@ -28,4 +28,15 @@ git checkout -b client_side_akka_http akka_http_server
 - Create file: <b>com.github.janikibichi.learnakka.http.ConnectionLevelClientAPIApp.scala</b>
 - Create file: <b>com.github.janikibichi.learnakka.http.HostLevelClientAPIApp.scala</b>
 - Create file: <b>com.github.janikibichi.learnakka.http.RequestLevelClientAPIApp.scala</b>
-
+-Run the [connection level Client API App](https://asciinema.org/a/au41haWcDr8Yc4lHQU9RyfAzW)
+````
+sbt "runMain com.github.janikibichi.learnakka.http.ConnectionLevelClientAPIApp"
+````
+- Run the [host level client API App](https://asciinema.org/a/YJ48yhY3ckRFB9bN9cnEcpfyS)
+````
+sbt "runMain com.github.janikibichi.learnakka.http.HostLevelClientAPIApp"
+````
+-Run the [request level client API App](https://asciinema.org/a/FeyOM6b5yYWykLmvXtCn5HuGe)
+````
+sbt "runMain com.github.janikibichi.learnakka.http.RequestLevelClientAPIApp"
+````
