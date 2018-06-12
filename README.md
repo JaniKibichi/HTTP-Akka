@@ -47,3 +47,4 @@ git checkout -b http_server_routing_dsl client_side_akka
 
 ````
 - Create file: <b>com.github.janikibichi.learnakka.http.InMemoryStorageRESTAPI.scala</b>
+- Create the objects to store in cache: <b>com.github.janikibichi.learnakka.http.TemperatureMeasurement.scala</b>
