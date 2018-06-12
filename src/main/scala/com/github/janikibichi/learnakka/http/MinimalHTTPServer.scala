@@ -13,13 +13,12 @@ object MinimalHttpServer extends HttpApp {
 
         get {
           complete(HttpEntity(ContentTypes. `text/html(UTF-8)`, s"<h1>Hello $id from Akka Http!</h1>"))
-        } 
-
-        post {
-          entity(as[String]) { entity =>
-            complete(HttpEntity(ContentTypes. `text/html(UTF-8)`, s"<b>Thanks $id for posting your message <i>$entity</i></b>"))
+        } ~ post {
+            entity(as[String]) { entity =>
+              complete(HttpEntity(ContentTypes. `text/html(UTF-8)`, s"<b>Thanks $id for posting your message <i>$entity</i></b>"))
+            }
           }
-        }
+
       }
     }
 }
