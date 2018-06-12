@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0302f5af-b1fd-4a7d-8cb8-30e2706656cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/usage.statistics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +24,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="424">
-                <caret line="36" column="18" selection-start-line="36" selection-end-line="36" selection-end-column="73" />
+              <first_editor relative-caret-position="442">
+                <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
               </first_editor>
               <second_editor />
             </state>
@@ -296,7 +294,7 @@
         <observation name="typedSelect" value="13.0" />
       </dailyData>
       <dailyData date="12-6-2018">
-        <observation name="cancelled" value="123.0" />
+        <observation name="cancelled" value="175.0" />
         <observation name="explicitSelect" value="17.0" />
         <observation name="typedSelect" value="5.0" />
       </dailyData>
@@ -306,7 +304,7 @@
         <observation name="BASIC" value="49.0" />
       </dailyData>
       <dailyData date="12-6-2018">
-        <observation name="BASIC" value="27.0" />
+        <observation name="BASIC" value="28.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -314,7 +312,7 @@
         <observation name="count" value="364.0" />
       </dailyData>
       <dailyData date="12-6-2018">
-        <observation name="count" value="145.0" />
+        <observation name="count" value="197.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -718,7 +716,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528805414894" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528805733104" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -742,7 +740,7 @@
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528805414894" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528805733105" />
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -931,8 +929,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="424">
-            <caret line="36" column="18" selection-start-line="36" selection-end-line="36" selection-end-column="73" />
+          <first_editor relative-caret-position="442">
+            <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>

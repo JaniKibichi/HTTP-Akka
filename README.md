@@ -40,3 +40,9 @@ sbt "runMain com.github.janikibichi.learnakka.http.HostLevelClientAPIApp"
 ````
 sbt "runMain com.github.janikibichi.learnakka.http.RequestLevelClientAPIApp"
 ````
+<br><br>
+- Branch out to explore routing DSL for Http Servers
+````
+git checkout -b http_server_routing_dsl client_side_akka
+
+````
