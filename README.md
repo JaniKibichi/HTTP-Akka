@@ -73,3 +73,15 @@ git checkout -b akka_http_config http_server_routing_dsl
 ````
 git checkout -b marshalling_unmarshalling akka_http_config
 ````
+- Create a file: <b>com.github.janikibichi.learnakka.http.SpeedMeasurement.scala</b>
+- Create a file to run the App: <b>com.github.janikibichi.learnakka.http.MarshallingApplication.scala</b>
+- [Run the Application:](https://asciinema.org/a/doWA6WtUhWnhQTRsFbxOAbNjD)
+````
+sbt "runMain com.github.janikibichi.learnakka.http.MarshallingApplication"
+````
+- [Call the GET/POST CURL calls](https://asciinema.org/a/iqV8ti2oR5EcTaENhCEINrbqH)
+````
+curl -X POST --data "140000000 40.42015 -3.70578 56.0" http://127.0.0.1:8088/
+
+curl -X GET http://127.0.0.1:8088/
+````
