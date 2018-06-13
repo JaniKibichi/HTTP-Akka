@@ -7,28 +7,30 @@
           <entry key="conf" value="1" />
           <entry key="md" value="1" />
           <entry key="sbt" value="1" />
-          <entry key="scala" value="12" />
+          <entry key="sc" value="2" />
+          <entry key="scala" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HOCON" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="Scala" value="12" />
+          <entry key="Scala" value="16" />
           <entry key="sbt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1261" />
+          <entry key="md" value="1469" />
           <entry key="sbt" value="6" />
-          <entry key="scala" value="608" />
+          <entry key="sc" value="19" />
+          <entry key="scala" value="771" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1261" />
-          <entry key="Scala" value="608" />
+          <entry key="Markdown" value="1469" />
+          <entry key="Scala" value="790" />
           <entry key="sbt" value="6" />
         </counts>
       </usages-collector>

@@ -85,3 +85,18 @@ curl -X POST --data "140000000 40.42015 -3.70578 56.0" http://127.0.0.1:8088/
 
 curl -X GET http://127.0.0.1:8088/
 ````
+<br><br>
+- Branch out to explore encoding and decoding data
+````
+git checkout -b encoding_decoding_data marshalling_unmarshalling
+````
+- Create file for server code: <b>com.github.janikibichi.learnakka.http.EncodingDecodingServerApp.scala</b>
+- Create file for client code: <b>com.github.janikibichi.learnakka.http.EncodingDecodingClientApp.scala</b>
+- [Run the server application]()
+````
+sbt "runMain com.github.janikibichi.learnakka.http.EncodingDecodingServerApp"
+````
+- [Run the client application]()
+````
+sbt "runMain com.github.janikibichi.learnakka.http.EncodingDecodingClientApp"
+````
