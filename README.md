@@ -68,3 +68,8 @@ curl -X GET http://127.0.0.1:8088/v1/temperature/
 git checkout -b akka_http_config http_server_routing_dsl
 ````
 - Create a file application.conf inside src/main/resources
+<br><br>
+- Branch out to explore marshalling and unmarshalling
+````
+git checkout -b marshalling_unmarshalling akka_http_config
+````
