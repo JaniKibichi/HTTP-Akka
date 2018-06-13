@@ -49,3 +49,16 @@ git checkout -b http_server_routing_dsl client_side_akka
 - Create file: <b>com.github.janikibichi.learnakka.http.InMemoryStorageRESTAPI.scala</b>
 - Create the objects to store in cache: <b>com.github.janikibichi.learnakka.http.TemperatureMeasurement.scala</b>
 - Create the file to handle the Actual REST API: <b>com.github.janikibichi.learnakka.http.CRUDHandlers.scala</b>
+- Create the file to min in the traits and extend Akka http: <b>com.github.janikibichi.learnakka.http.WritingRoutingDSL.scala</b>
+- Run the App to test [In Memory Storage App](https://asciinema.org/a/w8qcJBRYsNiz3S1pkaDzOLDVh)
+````
+sbt "runMain com.github.janikibichi.learnakka.http.TemperatureInMemoryStorageApiApplication"
+````
+- Run requests in [CURL to test APIs](https://asciinema.org/a/T7iEGH0dEB0J1kExxpW3dnSrP)
+````
+curl -X POST --data "Chicago, 20.0" http://127.0.0.1:8088/v1/temperature/
+
+curl -X POST --data "Madrid, 15.0" http://127.0.0.1:8088/v1/temperature/
+
+curl -X GET http://127.0.0.1:8088/v1/temperature/
+````
