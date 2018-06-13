@@ -92,11 +92,17 @@ git checkout -b encoding_decoding_data marshalling_unmarshalling
 ````
 - Create file for server code: <b>com.github.janikibichi.learnakka.http.EncodingDecodingServerApp.scala</b>
 - Create file for client code: <b>com.github.janikibichi.learnakka.http.EncodingDecodingClientApp.scala</b>
-- [Run the server application]()
+- [Run the server application](https://asciinema.org/a/KdvX89bRPjGHIYUET2rMQqCr8)
 ````
 sbt "runMain com.github.janikibichi.learnakka.http.EncodingDecodingServerApp"
 ````
-- [Run the client application]()
+- [Run the client application](https://asciinema.org/a/WYRjII2IEN59eZMYHpv96wOHn)
 ````
 sbt "runMain com.github.janikibichi.learnakka.http.EncodingDecodingClientApp"
 ````
+<br><br>
+- Branch out to explore custom directives
+````
+git checkout -b custom_directives encoding_decoding_data
+````
+- Create file for 
