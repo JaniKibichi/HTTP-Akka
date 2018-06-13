@@ -62,3 +62,9 @@ curl -X POST --data "Madrid, 15.0" http://127.0.0.1:8088/v1/temperature/
 
 curl -X GET http://127.0.0.1:8088/v1/temperature/
 ````
+<br><br>
+- Branch out to explore writing Http Akka configurations
+````
+git checkout -b akka_http_config http_server_routing_dsl
+````
+- Create a file application.conf inside src/main/resources

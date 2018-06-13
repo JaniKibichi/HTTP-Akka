@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0302f5af-b1fd-4a7d-8cb8-30e2706656cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/WritingRoutingDSL.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/http.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/http.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/usage.statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/CRUDHandlers.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/CRUDHandlers.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -24,14 +24,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="262">
-                <caret line="54" column="7" selection-start-line="54" selection-end-line="54" selection-end-column="92" />
+              <first_editor relative-caret-position="442">
+                <caret line="69" column="58" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/CRUDHandlers.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/WritingRoutingDSL.scala" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
       </list>
     </option>
   </component>
@@ -342,7 +352,7 @@
         <observation name="typedSelect" value="16.0" />
       </dailyData>
       <dailyData date="13-6-2018">
-        <observation name="cancelled" value="91.0" />
+        <observation name="cancelled" value="172.0" />
         <observation name="explicitSelect" value="4.0" />
         <observation name="typedSelect" value="3.0" />
       </dailyData>
@@ -355,7 +365,7 @@
         <observation name="BASIC" value="77.0" />
       </dailyData>
       <dailyData date="13-6-2018">
-        <observation name="BASIC" value="16.0" />
+        <observation name="BASIC" value="17.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -366,7 +376,7 @@
         <observation name="count" value="404.0" />
       </dailyData>
       <dailyData date="13-6-2018">
-        <observation name="count" value="98.0" />
+        <observation name="count" value="179.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -863,6 +873,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -899,7 +912,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528889139690" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528889886674" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -923,7 +936,7 @@
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528889139691" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1528889886676" />
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -1043,7 +1056,7 @@
     <frame x="75" y="36" width="1289" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24939662" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1157,10 +1170,17 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="262">
-            <caret line="54" column="7" selection-start-line="54" selection-end-line="54" selection-end-column="92" />
+          <first_editor relative-caret-position="442">
+            <caret line="69" column="58" selection-start-line="69" selection-start-column="58" selection-end-line="69" selection-end-column="58" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
