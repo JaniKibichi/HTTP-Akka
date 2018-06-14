@@ -110,3 +110,15 @@ git checkout -b custom_directives encoding_decoding_data
 libraryDependencies += "io.dropwizard" % "dropwizard-core" % "1.0.6"
 ````
 - Create a file: <b>com.github.janikibichi.learnakka.http.CustomDirectivesApp.scala</b>
+- [Run the App to see the console reporter reporting metrics:](https://asciinema.org/a/6zoN4JDnX0EhU9cwIFF7uXdVJ)
+````
+sbt "runMain com.github.janikibichi.learnakka.http.CustomDirectivesApp"
+````
+- [Run CURL requests to the Akka Server:](https://asciinema.org/a/pPt79wzZLVscKIqeEnW2c4ptS)
+````
+curl -X POST http://127.0.0.1:8088
+curl -X POST http://127.0.0.1:8088
+curl -X GET http://127.0.0.1:8088
+curl -X GET http://127.0.0.1:8088
+curl -X PUT http://127.0.0.1:8088
+````

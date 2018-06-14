@@ -21,16 +21,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1678" />
+          <entry key="md" value="1691" />
           <entry key="sbt" value="8" />
           <entry key="sc" value="19" />
-          <entry key="scala" value="799" />
+          <entry key="scala" value="835" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1678" />
-          <entry key="Scala" value="818" />
+          <entry key="Markdown" value="1691" />
+          <entry key="Scala" value="854" />
           <entry key="sbt" value="8" />
         </counts>
       </usages-collector>
