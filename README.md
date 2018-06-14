@@ -105,4 +105,8 @@ sbt "runMain com.github.janikibichi.learnakka.http.EncodingDecodingClientApp"
 ````
 git checkout -b custom_directives encoding_decoding_data
 ````
-- Create file for 
+- Add new dependency for dropwizard to build.sbt
+````
+libraryDependencies += "io.dropwizard" % "dropwizard-core" % "1.0.6"
+````
+- Create a file: <b>com.github.janikibichi.learnakka.http.CustomDirectivesApp.scala</b>

@@ -6,32 +6,32 @@
         <counts>
           <entry key="conf" value="1" />
           <entry key="md" value="1" />
-          <entry key="sbt" value="1" />
+          <entry key="sbt" value="2" />
           <entry key="sc" value="2" />
-          <entry key="scala" value="14" />
+          <entry key="scala" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HOCON" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="Scala" value="16" />
-          <entry key="sbt" value="1" />
+          <entry key="Scala" value="18" />
+          <entry key="sbt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1571" />
-          <entry key="sbt" value="6" />
+          <entry key="md" value="1678" />
+          <entry key="sbt" value="8" />
           <entry key="sc" value="19" />
-          <entry key="scala" value="771" />
+          <entry key="scala" value="799" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1571" />
-          <entry key="Scala" value="790" />
-          <entry key="sbt" value="6" />
+          <entry key="Markdown" value="1678" />
+          <entry key="Scala" value="818" />
+          <entry key="sbt" value="8" />
         </counts>
       </usages-collector>
     </session>
