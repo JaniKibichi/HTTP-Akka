@@ -122,3 +122,9 @@ curl -X GET http://127.0.0.1:8088
 curl -X GET http://127.0.0.1:8088
 curl -X PUT http://127.0.0.1:8088
 ````
+<br><br>
+- Branch out to explore exception handling
+````
+git checkout -b exception_handling custom_directives
+````
+- Create File: <b>com.github.janikibichi.learnakka.http.RouteExceptionHandler.scala</b>
