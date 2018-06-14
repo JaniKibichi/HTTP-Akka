@@ -8,29 +8,29 @@
           <entry key="md" value="1" />
           <entry key="sbt" value="2" />
           <entry key="sc" value="2" />
-          <entry key="scala" value="16" />
+          <entry key="scala" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HOCON" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="Scala" value="18" />
+          <entry key="Scala" value="21" />
           <entry key="sbt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="1733" />
+          <entry key="md" value="1911" />
           <entry key="sbt" value="8" />
           <entry key="sc" value="19" />
-          <entry key="scala" value="835" />
+          <entry key="scala" value="950" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1733" />
-          <entry key="Scala" value="854" />
+          <entry key="Markdown" value="1911" />
+          <entry key="Scala" value="969" />
           <entry key="sbt" value="8" />
         </counts>
       </usages-collector>

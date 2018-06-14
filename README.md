@@ -128,3 +128,14 @@ curl -X PUT http://127.0.0.1:8088
 git checkout -b exception_handling custom_directives
 ````
 - Create File: <b>com.github.janikibichi.learnakka.http.RouteExceptionHandler.scala</b>
+- Create an actor that ignores all messages: <b>com.github.janikibichi.learnakka.http.UnresponsiveActor.scala</b>
+- [Run the app to show HandlingExceptions]()
+````
+sbt "runMain com.github.janikibichi.learnakka.http.HandlingExceptionsApp"
+````
+- Send curl requests to test Exceptions
+````
+curl -X GET http://127.0.0.1:8088/divide?a=20&b=10
+curl -X GET http://127.0.0.1:8088/divide?a=20&b=0
+curl -X GET http://127.0.0.1:8088/futureTimingOut
+````
