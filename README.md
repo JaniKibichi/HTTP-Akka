@@ -188,3 +188,48 @@ curl -X POST -H "Content-Type: application/json" --data
 ````
 git checkout -b akka_http_xml_support akka_http_json_support
 ````
+- Add the required spray-xml dependency
+````
+libraryDependencies += "com.typesafe.akka" %% "akka-http-xml" % "10.0.5"
+````
+- Update the file: <b>com.github.janikibichi.learnakka.http.OrderModel.scala</b>
+- Create route & app file: <b>com.github.janikibichi.learnakka.http.OrderCalculatorXmlApp.scala</b>
+- [Run the XML Server]() 
+````
+sbt "runMain com.github.janikibichi.learnakka.http.OrderCalculatorXMLServerApp"
+````
+- [Generate a Random Order]()
+````
+curl -X GET http://127.0.0.1:8088/randomOrder
+````
+- [CURL the calculate GrandTotal endpoint:]()
+````
+curl -X POST -H "Content-Type: application/xml" --data "<order>
+<id>randomId</id>
+<timestamp>1529072706538</timestamp>
+<deliveryPrice>40.78967065678465</deliveryPrice>
+<items><item>
+<id>0</id>
+<quantity>63</quantity>
+<unitPrice>774.3165004979767</unitPrice>
+<percentageDiscount>
+0.04045510557748222
+</percentageDiscount>
+</item><item>
+<id>1</id>
+<quantity>31</quantity>
+<unitPrice>398.63100633101243</unitPrice>
+<percentageDiscount>
+0.8997425432277782
+</percentageDiscount>
+</item><item>
+<id>2</id>
+<quantity>54</quantity>
+<unitPrice>356.6902491214289</unitPrice>
+<percentageDiscount>
+0.7485276871278848
+</percentageDiscount>
+</item></items>
+<metadata><notes>random</notes></metadata>
+</order>" http://127.0.0.1:8088/calculateGrandTotal
+````

@@ -23,7 +23,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="2559" />
+          <entry key="md" value="2560" />
           <entry key="sbt" value="12" />
           <entry key="sc" value="103" />
           <entry key="scala" value="1249" />
@@ -32,7 +32,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2559" />
+          <entry key="Markdown" value="2560" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Scala" value="1352" />
           <entry key="sbt" value="12" />
