@@ -139,3 +139,19 @@ curl -X GET http://127.0.0.1:8088/divide?a=20&b=10
 curl -X GET http://127.0.0.1:8088/divide?a=20&b=0
 curl -X GET http://127.0.0.1:8088/futureTimingOut
 ````
+<br><br>
+-Branch to explore file uploading using Akka Http
+````
+git checkout -b file_uploading exception_handling
+````
+- Create a file to : <b>com.github.janikibichi.learnakka.http.UploadingFileServerApp.scala</b>
+- Create a file to hit our endpoints: <b>com.github.janikibichi.learnakka.http.UploadingFileClient.scala</b>
+- Create file testFile.txt in src/main/resources to be consumed
+- [Run the server:](https://asciinema.org/a/ksNhscDR9ojDtGbXPTu79plCD)
+````
+sbt "runMain com.github.janikibichi.learnakka.http.UploadingFileServerApp"
+````
+- [Run the client to upload:](https://asciinema.org/a/bvdhIg14cSfvieNgk8n1U7nDc)
+````
+sbt "runMain com.github.janikibichi.learnakka.http.UploadingFileClient"
+````
