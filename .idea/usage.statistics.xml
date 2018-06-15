@@ -6,34 +6,36 @@
         <counts>
           <entry key="conf" value="1" />
           <entry key="md" value="1" />
-          <entry key="sbt" value="2" />
-          <entry key="sc" value="2" />
-          <entry key="scala" value="24" />
-          <entry key="txt" value="1" />
+          <entry key="sbt" value="3" />
+          <entry key="sc" value="3" />
+          <entry key="scala" value="25" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HOCON" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Scala" value="26" />
-          <entry key="sbt" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Scala" value="28" />
+          <entry key="sbt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="2175" />
-          <entry key="sbt" value="8" />
-          <entry key="sc" value="19" />
-          <entry key="scala" value="1138" />
+          <entry key="md" value="2417" />
+          <entry key="sbt" value="10" />
+          <entry key="sc" value="103" />
+          <entry key="scala" value="1154" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="2175" />
-          <entry key="Scala" value="1157" />
-          <entry key="sbt" value="8" />
+          <entry key="Markdown" value="2417" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Scala" value="1257" />
+          <entry key="sbt" value="10" />
         </counts>
       </usages-collector>
     </session>

@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0302f5af-b1fd-4a7d-8cb8-30e2706656cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/UploadingFileClient.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/UploadingFileServerApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_11_10_0_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_spray_spray_json_2_11_1_3_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/ObjectCalculatorJsonApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/OrderModel.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/http.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/http.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/usage.statistics.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/http-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/http-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/http-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/http-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-http-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -24,50 +44,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="442">
-                <caret line="155" column="6" selection-start-line="155" selection-end-line="155" selection-end-column="71" />
+              <first_editor relative-caret-position="406">
+                <caret line="188" column="7" selection-start-line="188" selection-end-line="188" selection-end-column="60" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/UploadingFileClient.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/ObjectCalculatorJsonApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state relative-caret-position="389">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/OrderModel.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#47#73#0" expanded="true" />
+                <element signature="e#47#111#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/ConnectionLevelClientAPIApp.scala">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="45" />
-              <folding>
-                <element signature="e#47#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/UploadingFileServerApp.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="51" column="29" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="29" />
-              <folding>
-                <element signature="e#47#88#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -77,8 +91,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Scala Worksheet" />
         <option value="Scala Script" />
+        <option value="Scala Worksheet" />
       </list>
     </option>
   </component>
@@ -109,16 +123,19 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/SpeedMeasurement.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/EncodingDecodingServerApp.scala.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/EncodingDecodingClientApp.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/MetricDirectives.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/CustomDirectivesApp.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/RouteExceptionHandler.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/UnresponsiveActor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/HandlingExceptionsApp.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/UploadingFileServerApp.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/testFile.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/UploadingFileClient.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/testFile.txt" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/OrderModel.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/ObjectCalculatorJsonApp.scala.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/ObjectCalculatorJsonApp.scala" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -152,7 +169,7 @@
         <observation name="false" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="false" value="79.0" />
+        <observation name="false" value="97.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:liftShorterClasses">
@@ -169,7 +186,7 @@
         <observation name="UNDEFINED" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="UNDEFINED" value="79.0" />
+        <observation name="UNDEFINED" value="97.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:middleMatching">
@@ -186,7 +203,7 @@
         <observation name="false" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="false" value="78.0" />
+        <observation name="false" value="96.0" />
         <observation name="true" value="1.0" />
       </dailyData>
     </factor>
@@ -204,7 +221,7 @@
         <observation name="UNDEFINED" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="UNDEFINED" value="79.0" />
+        <observation name="UNDEFINED" value="97.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_inResolveScope">
@@ -228,8 +245,8 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="55.0" />
-        <observation name="true" value="23.0" />
+        <observation name="false" value="71.0" />
+        <observation name="true" value="25.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_openedInEditor">
@@ -250,7 +267,7 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="78.0" />
+        <observation name="false" value="96.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameDirectory">
@@ -271,7 +288,7 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="78.0" />
+        <observation name="false" value="96.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sameLogicalRoot">
@@ -292,7 +309,7 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="78.0" />
+        <observation name="false" value="96.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:prox_sdkOrLibrary">
@@ -312,7 +329,7 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="78.0" />
+        <observation name="false" value="96.0" />
       </dailyData>
     </factor>
     <factor id="binaryFeature:templates">
@@ -329,7 +346,7 @@
         <observation name="false" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="false" value="78.0" />
+        <observation name="false" value="96.0" />
         <observation name="true" value="1.0" />
       </dailyData>
     </factor>
@@ -347,7 +364,7 @@
         <observation name="UNDEFINED" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="UNDEFINED" value="79.0" />
+        <observation name="UNDEFINED" value="97.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:expectedType">
@@ -364,7 +381,7 @@
         <observation name="UNDEFINED" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="UNDEFINED" value="79.0" />
+        <observation name="UNDEFINED" value="97.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:kind">
@@ -381,7 +398,7 @@
         <observation name="UNDEFINED" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="UNDEFINED" value="79.0" />
+        <observation name="UNDEFINED" value="97.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_groovyReferenceListWeigher">
@@ -401,7 +418,7 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="UNDEFINED" value="1.0" />
-        <observation name="unknown" value="78.0" />
+        <observation name="unknown" value="96.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_javaInheritance">
@@ -425,8 +442,8 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="UNDEFINED" value="1.0" />
-        <observation name="false" value="21.0" />
-        <observation name="null" value="57.0" />
+        <observation name="false" value="22.0" />
+        <observation name="null" value="74.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:prox_referenceList">
@@ -446,7 +463,7 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="UNDEFINED" value="1.0" />
-        <observation name="unknown" value="78.0" />
+        <observation name="unknown" value="96.0" />
       </dailyData>
     </factor>
     <factor id="categoricalFeature:recursion">
@@ -463,7 +480,7 @@
         <observation name="UNDEFINED" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="UNDEFINED" value="79.0" />
+        <observation name="UNDEFINED" value="97.0" />
       </dailyData>
     </factor>
     <factor id="completionFinishedType">
@@ -487,9 +504,9 @@
         <observation name="explicitSelect" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="cancelled" value="370.0" />
-        <observation name="explicitSelect" value="61.0" />
-        <observation name="typedSelect" value="18.0" />
+        <observation name="cancelled" value="514.0" />
+        <observation name="explicitSelect" value="74.0" />
+        <observation name="typedSelect" value="23.0" />
       </dailyData>
     </factor>
     <factor id="completionType">
@@ -506,7 +523,7 @@
         <observation name="BASIC" value="13.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="BASIC" value="97.0" />
+        <observation name="BASIC" value="122.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -523,7 +540,7 @@
         <observation name="count" value="31.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="count" value="449.0" />
+        <observation name="count" value="611.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -557,7 +574,7 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="157.0" />
+        <observation name="count" value="193.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -594,7 +611,7 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="157.0" />
+        <observation name="count" value="193.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -614,7 +631,7 @@
         <observation name="UNDEFINED" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="UNDEFINED" value="79.0" />
+        <observation name="UNDEFINED" value="97.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:nameEnd">
@@ -631,7 +648,7 @@
         <observation name="UNDEFINED" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="UNDEFINED" value="79.0" />
+        <observation name="UNDEFINED" value="97.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:position">
@@ -664,11 +681,11 @@
         <observation name="variance" value="0.276594" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="average" value="0.299363" />
-        <observation name="count" value="157.0" />
+        <observation name="average" value="0.264249" />
+        <observation name="count" value="193.0" />
         <observation name="max" value="5.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="0.857699" />
+        <observation name="variance" value="0.797608" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:prefix">
@@ -701,11 +718,11 @@
         <observation name="variance" value="193458.415805" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="average" value="-836.407643" />
-        <observation name="count" value="157.0" />
+        <observation name="average" value="-762.963731" />
+        <observation name="count" value="193.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="-1153.0" />
-        <observation name="variance" value="221054.050802" />
+        <observation name="variance" value="241838.070213" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:priority">
@@ -739,7 +756,7 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="157.0" />
+        <observation name="count" value="193.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -779,7 +796,7 @@
       <dailyData date="15-6-2018">
         <observation name="UNDEFINED" value="1.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="155.0" />
+        <observation name="count" value="191.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -819,7 +836,7 @@
       <dailyData date="15-6-2018">
         <observation name="UNDEFINED" value="1.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="155.0" />
+        <observation name="count" value="191.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -859,7 +876,7 @@
       <dailyData date="15-6-2018">
         <observation name="UNDEFINED" value="1.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="155.0" />
+        <observation name="count" value="191.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -899,7 +916,7 @@
       <dailyData date="15-6-2018">
         <observation name="UNDEFINED" value="1.0" />
         <observation name="average" value="0.0" />
-        <observation name="count" value="155.0" />
+        <observation name="count" value="191.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -936,7 +953,7 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="average" value="0.0" />
-        <observation name="count" value="157.0" />
+        <observation name="count" value="193.0" />
         <observation name="max" value="0.0" />
         <observation name="min" value="0.0" />
         <observation name="variance" value="0.0" />
@@ -972,11 +989,11 @@
         <observation name="variance" value="4.173511" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="average" value="6.547771" />
-        <observation name="count" value="157.0" />
+        <observation name="average" value="6.53886" />
+        <observation name="count" value="193.0" />
         <observation name="max" value="19.0" />
         <observation name="min" value="1.0" />
-        <observation name="variance" value="7.347812" />
+        <observation name="variance" value="7.197723" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sameWords">
@@ -993,7 +1010,7 @@
         <observation name="UNDEFINED" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="UNDEFINED" value="79.0" />
+        <observation name="UNDEFINED" value="97.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:shorter">
@@ -1010,7 +1027,7 @@
         <observation name="UNDEFINED" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="UNDEFINED" value="79.0" />
+        <observation name="UNDEFINED" value="97.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:simple">
@@ -1027,7 +1044,7 @@
         <observation name="UNDEFINED" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="UNDEFINED" value="79.0" />
+        <observation name="UNDEFINED" value="97.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:sorter">
@@ -1061,7 +1078,7 @@
       </dailyData>
       <dailyData date="15-6-2018">
         <observation name="average" value="1.0" />
-        <observation name="count" value="157.0" />
+        <observation name="count" value="193.0" />
         <observation name="max" value="1.0" />
         <observation name="min" value="1.0" />
         <observation name="variance" value="0.0" />
@@ -1081,7 +1098,7 @@
         <observation name="UNDEFINED" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="UNDEFINED" value="79.0" />
+        <observation name="UNDEFINED" value="97.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:stats">
@@ -1114,11 +1131,11 @@
         <observation name="variance" value="6996572.539517" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="average" value="2672.535032" />
-        <observation name="count" value="157.0" />
+        <observation name="average" value="2174.031088" />
+        <observation name="count" value="193.0" />
         <observation name="max" value="10000.0" />
         <observation name="min" value="0.0" />
-        <observation name="variance" value="15654202.661331" />
+        <observation name="variance" value="14690110.911551" />
       </dailyData>
     </factor>
     <factor id="itemPosition">
@@ -1143,8 +1160,9 @@
         <observation name="2" value="1.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="0" value="52.0" />
+        <observation name="0" value="64.0" />
         <observation name="1" value="4.0" />
+        <observation name="2" value="1.0" />
         <observation name="3" value="1.0" />
         <observation name="4" value="3.0" />
         <observation name="5" value="1.0" />
@@ -1168,7 +1186,7 @@
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="total" value="30.0" />
+        <observation name="total" value="33.0" />
         <observation name="withMnemonics" value="0.0" />
       </dailyData>
     </factor>
@@ -1204,10 +1222,10 @@
         <observation name="3" value="1.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="0" value="15.0" />
-        <observation name="1" value="16.0" />
-        <observation name="2" value="17.0" />
-        <observation name="3" value="7.0" />
+        <observation name="0" value="23.0" />
+        <observation name="1" value="18.0" />
+        <observation name="2" value="19.0" />
+        <observation name="3" value="8.0" />
         <observation name="4" value="5.0" />
         <observation name="5" value="1.0" />
       </dailyData>
@@ -1230,8 +1248,8 @@
         <observation name="count" value="2.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="average" value="293.43617" />
-        <observation name="count" value="94.0" />
+        <observation name="average" value="286.45045" />
+        <observation name="count" value="111.0" />
       </dailyData>
     </factor>
   </component>
@@ -1335,7 +1353,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529064839429" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529074660825" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -1359,7 +1377,7 @@
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529064839430" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529074660826" />
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -1439,7 +1457,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="1482297114" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="3730925119" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2073824194" />
       </map>
     </option>
@@ -1626,13 +1644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/MetricDirectives.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1679,40 +1690,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/testFile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/ConnectionLevelClientAPIApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-193">
           <caret column="8" selection-start-column="8" selection-end-column="45" />
           <folding>
             <element signature="e#47#76#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/UploadingFileServerApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="29" />
-          <folding>
-            <element signature="e#47#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="442">
-            <caret line="155" column="6" selection-start-line="155" selection-end-line="155" selection-end-column="71" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1723,6 +1707,57 @@
           <folding>
             <element signature="e#47#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/UploadingFileServerApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="e#47#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testFile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/ObjectCalculatorJsonApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/github/janikibichi/learnakka/http/OrderModel.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#47#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="406">
+            <caret line="188" column="7" selection-start-line="188" selection-end-line="188" selection-end-column="60" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

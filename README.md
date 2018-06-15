@@ -155,3 +155,36 @@ sbt "runMain com.github.janikibichi.learnakka.http.UploadingFileServerApp"
 ````
 sbt "runMain com.github.janikibichi.learnakka.http.UploadingFileClient"
 ````
+<br><br>
+- Branch to explore JSON support in Akka Http
+````
+git checkout -b akka_http_json_support file_uploading
+````
+- Add the required spray-json dependency
+````
+libraryDependencies += "com.typesafe.akka" %% "akka-http-spray-json" % "10.0.5"
+````
+- Create a file, with case classes,marshalling/unmarshalling:<b>com.github.janikibichi.learnakka.http.OrderModel.scala</b>
+- Create file for route and app: <b>com.github.janikibichi.learnakka.http.OrderCalculatorJsonApp.scala</b>
+- [Run the server App:]()
+````
+sbt "runMain com.github.janikibichi.learnakka.http.OrderCalculatorJsonServerApp"
+````
+- [Generate a random order from the endpoint:]()
+````
+curl -X GET http://127.0.0.1:8088/randomOrder
+````
+- POST to calculateGrandTotal endpoint
+````
+curl -X POST -H "Content-Type: application/json" --data
+'{"deliveryPrice":40.78967065678465,
+  "timestamp":1529072706538,
+  "items":[{"id":0,"quantity":39,"unitPrice":62.71743225100119,"percentageDiscount":0.718874975037442},{"id":1,"quantity":97,"unitPrice":32.65086872858111,"percentageDiscount":0.2307965856942381},{"id":2,"quantity":74,"unitPrice":51.16980368241938},{"id":3,"quantity":61,"unitPrice":26.298491708980443,"percentageDiscount":0.3595474058385193},{"id":4,"quantity":61,"unitPrice":67.83301852775391,"percentageDiscount":0.01743796408711551}],
+  "id":"甠Ḃ뎥慩",
+  "metadata":{"notes":"random"}}' "http://127.0.0.1:8088/calculateGrandTotal"
+````
+<br><br>
+- Branch out to explore XML support in Akka Http
+````
+git checkout -b akka_http_xml_support akka_http_json_support
+````
