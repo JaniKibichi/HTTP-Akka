@@ -180,7 +180,7 @@ curl -X POST -H "Content-Type: application/json" --data
 '{"deliveryPrice":40.78967065678465,
   "timestamp":1529072706538,
   "items":[{"id":0,"quantity":39,"unitPrice":62.71743225100119,"percentageDiscount":0.718874975037442},{"id":1,"quantity":97,"unitPrice":32.65086872858111,"percentageDiscount":0.2307965856942381},{"id":2,"quantity":74,"unitPrice":51.16980368241938},{"id":3,"quantity":61,"unitPrice":26.298491708980443,"percentageDiscount":0.3595474058385193},{"id":4,"quantity":61,"unitPrice":67.83301852775391,"percentageDiscount":0.01743796408711551}],
-  "id":"甠Ḃ뎥慩",
+  "id":"randomId",
   "metadata":{"notes":"random"}}' "http://127.0.0.1:8088/calculateGrandTotal"
 ````
 <br><br>

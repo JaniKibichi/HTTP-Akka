@@ -13,3 +13,5 @@ libraryDependencies += "com.typesafe.akka" %% "akka-http" % "10.0.5"
 libraryDependencies += "io.dropwizard" % "dropwizard-core" % "1.0.6"
 
 libraryDependencies += "com.typesafe.akka" %% "akka-http-spray-json" % "10.0.5"
+
+libraryDependencies += "com.typesafe.akka" %% "akka-http-xml" % "10.0.5"
