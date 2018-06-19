@@ -24,8 +24,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="265">
-                <caret line="188" selection-start-line="188" selection-end-line="188" selection-end-column="60" />
+              <first_editor relative-caret-position="442">
+                <caret line="235" lean-forward="true" selection-start-line="235" selection-end-line="235" />
               </first_editor>
               <second_editor />
             </state>
@@ -505,7 +505,7 @@
         <observation name="explicitSelect" value="12.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="cancelled" value="613.0" />
+        <observation name="cancelled" value="653.0" />
         <observation name="explicitSelect" value="84.0" />
         <observation name="typedSelect" value="32.0" />
       </dailyData>
@@ -524,7 +524,7 @@
         <observation name="BASIC" value="13.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="BASIC" value="146.0" />
+        <observation name="BASIC" value="147.0" />
       </dailyData>
     </factor>
     <factor id="completionUsage">
@@ -541,7 +541,7 @@
         <observation name="count" value="31.0" />
       </dailyData>
       <dailyData date="15-6-2018">
-        <observation name="count" value="729.0" />
+        <observation name="count" value="769.0" />
       </dailyData>
     </factor>
     <factor id="doubleFeature:explicitProximity">
@@ -1354,7 +1354,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529082802552" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529413496454" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -1378,7 +1378,7 @@
       </Profilers>
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529082802553" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1529413496455" />
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -1516,7 +1516,7 @@
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.3277592" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32943144" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32943144" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1780,8 +1780,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="265">
-            <caret line="188" selection-start-line="188" selection-end-line="188" selection-end-column="60" />
+          <first_editor relative-caret-position="442">
+            <caret line="235" lean-forward="true" selection-start-line="235" selection-end-line="235" />
           </first_editor>
           <second_editor />
         </state>
