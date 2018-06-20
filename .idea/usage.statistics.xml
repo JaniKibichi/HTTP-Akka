@@ -5,6 +5,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="conf" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
           <entry key="sbt" value="3" />
           <entry key="sc" value="3" />
@@ -16,7 +17,7 @@
         <counts>
           <entry key="HOCON" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Scala" value="30" />
           <entry key="sbt" value="3" />
         </counts>
