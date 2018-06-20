@@ -4,6 +4,7 @@
     <session id="379327760">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
           <entry key="sbt" value="1" />
           <entry key="scala" value="4" />
@@ -12,6 +13,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Scala" value="4" />
           <entry key="sbt" value="1" />
         </counts>
